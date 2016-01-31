@@ -16,14 +16,14 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    No need to check online every time for status, but also it allows easy merges, because the previous state is known, in cases of conflict with remote changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Shared folder (problems vith version history) or another versioning system (SVN). Maybe even email. For each are harder and easier things.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When my changes are in need of discussion with other contributors online, who might or might not agree on them, so the master is kept clear and only updated when everyone is in agreement.
