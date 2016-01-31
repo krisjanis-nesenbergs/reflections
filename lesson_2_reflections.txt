@@ -1,22 +1,32 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-Create a repository in the folder, but don't do any commits
+- Create a repository in the folder, but don't do any commits
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-It can only contain part of the content of the directory. THe value is to commit only part of files (if some are unwanted or are better suited for later commits)
+- It can only contain part of the content of the directory. THe value is to commit only part of files (if some are unwanted or are better suited for later commits)
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+- You only stage (add to) those files containing the logical change and no others at the same time
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+- when working on an experimental feature or a different version of program, such as easy mode or other language
+
 How do the diagrams help you visualize the branch structure?
+
+- By seein gthe drawings nd hierarchy
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+- A commit, on the current branch, incorporating all the commits from other branches in the order of their timestams (or other strategy if used)
+
 What are the pros and cons of Gitā€™s automatic merging vs. always doing merges
 manually?
+
+- automatic is faster and more convenient, but more risk of git not being able to resolve conflicts correctly. Manual gives better conflict resolution but is tedious
